@@ -182,7 +182,7 @@ def qute_print(string_):
     @param string_: The message to send
     @type  string_: str
     """
-    qute_cmd(":message-info '%s'" % string_)
+    qute_cmd(":message-info '%s: %s'" % (PRGNAME, string_))
 
 #####################
 #  Main userscript  #
