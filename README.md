@@ -27,12 +27,18 @@ This will open a tab in the Qutebrowser window with the recovered URL.
 
 ## Dependencies
 
-- [libopendht][];
-- [python-opendht][libopendht];
-- [PyCrypto][];
+- Python version 3
+- [libopendht][]
+- [python3-opendht][libopendht]
+- [msgpack][]
+- [PyCryptodome][]
+
 
 [libopendht]: https://github.com/savoirfairelinux/opendht
-[PyCrypto]: https://www.dlitz.net/software/pycrypto/
+[msgpack]: https://pypi.org/project/msgpack/
+[PyCryptodome]: https://www.pycryptodome.org/en/latest/src/introduction.html
+[PBKDF2]: https://www.pycryptodome.org/en/latest/src/protocol/kdf.html#Crypto.Protocol.KDF.PBKDF2
+[sim590]: https://github.com/sim590
 
 <!-- vim: set ts=4 sw=4 tw=80 et :-->
 
