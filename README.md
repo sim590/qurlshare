@@ -1,6 +1,6 @@
 # qurlshare
 
-A Qutebrowser userscript enabling *secure* sharing of an URL between qutebrowser
+A [Qutebrowser][] userscript enabling *secure* sharing of an URL between qutebrowser
 instances without need of any centralized service.
 
 More precisely, it is a URL sharing script running over a distributed hash
@@ -63,6 +63,7 @@ python module.
 
 [Simon Désaulniers][sim590] (<sim.desaulniers@gmail.com>)
 
+[Qutebrowser]: http://qutebrowser.org/
 [libopendht]: https://github.com/savoirfairelinux/opendht
 [msgpack]: https://pypi.org/project/msgpack/
 [PyCryptodome]: https://www.pycryptodome.org/en/latest/src/introduction.html
