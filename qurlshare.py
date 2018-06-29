@@ -209,6 +209,7 @@ def main():
             return 1
         url = lv[b"data"].decode()
         qute_cmd(":open -t %s" % url)
+        qute_print("URL found: %s" % url)
     else:
         if not pa.url:
             return
