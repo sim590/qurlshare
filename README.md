@@ -1,3 +1,5 @@
+# qurlshare
+
 Qutebrowser script enabling *secure* sharing of a list of URL between
 qutebrowser instances without need of any centralized service.
 
