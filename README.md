@@ -24,6 +24,28 @@ In order to recover the URL, simply do:
 
 This will open a tab in the Qutebrowser window with the recovered URL.
 
+## Security
+
+User configuration protects his data. The script can be configured directly by
+editing variables at the top of the script:
+
+```python
+########################
+#  USER CONFIGURATION  #
+########################
+
+USER = "49d248e8b300550"
+PWD  = "99a2b38a6216c1c"
+```
+
+Username and password can be of any length. The username and password are used
+to derive a storage location on the DHT so make sure to pick something that is
+unique if you don't want to end up with someone else (encrypted) data.
+
+The key used to encrypt is the result of passing `PWD` into some *Key Derivation
+Function* which has the effect of increasing the computationnal effort of
+bruteforcing your password. The *KDF* used is [PBKDF2][] from [PyCryptodome][]
+python module.
 
 ## Dependencies
 
