@@ -55,6 +55,13 @@ python module.
 - [msgpack][]
 - [PyCryptodome][]
 
+## Roadmap
+
+1. Configure username and password outside of the script.
+
+## Author
+
+[Simon Désaulniers][sim590] (<sim.desaulniers@gmail.com>)
 
 [libopendht]: https://github.com/savoirfairelinux/opendht
 [msgpack]: https://pypi.org/project/msgpack/
