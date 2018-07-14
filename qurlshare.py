@@ -172,7 +172,7 @@ def qute_cmd(cmd_string_):
         k = 'QUTE_FIFO'
         cmd_fifo = os.environ[k] if k in os.environ else ''
         with open(cmd_fifo, 'w') as f:
-            f.write(cmd_string_)
+            f.write(cmd_string_+'\n')
     except FileNotFoundError as e:
         pass
 
