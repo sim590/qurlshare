@@ -50,7 +50,7 @@ python module.
 ## Dependencies
 
 - Python version 3
-- [libopendht][]
+- [libopendht][] (tested with version 1.6.0)
 - [python3-opendht][libopendht]
 - [msgpack][]
 - [PyCryptodome][]
