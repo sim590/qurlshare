@@ -58,6 +58,9 @@ python module.
 ## Roadmap
 
 1. Configure username and password outside of the script.
+2. Make this script use a daemonized OpenDHT node in order to avoid recreating
+   a node every time one uses this script. This would significantly speed up the
+   process of publishing and recoverining of URLs.
 
 ## Author
 
